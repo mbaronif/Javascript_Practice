@@ -1,0 +1,9 @@
+var nomeDaPessoa = prompt("Qual o seu nome?"); // asks the name of the user
+var valorEmDolar = 30; // value in dollars
+var cotacaoDoDolar = 4.82; // dollar rate in reais
+
+var valorEmReal = valorEmDolar * cotacaoDoDolar;
+
+valorEmReal = valorEmReal.toFixed(2);
+
+alert(nomeDaPessoa + ", o valor é " + "R$" + valorEmReal);
