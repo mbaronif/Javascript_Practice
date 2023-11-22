@@ -1,0 +1,24 @@
+var listaFilmes = ["https://a-static.mlcdn.com.br/450x450/poster-cartaz-o-hobbit-a-batalha-dos-cinco-exercitos-a-pop-arte-poster/poparteskins2/15938538999/2cd7e11378d15dd18ff6e7cf9b051d5e.jpeg", "https://upload.wikimedia.org/wikipedia/en/b/b6/Jumanji_poster.jpg", "https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg", "https://br.web.img2.acsta.net/medias/nmedia/18/93/88/04/20282944.jpg", "https://m.media-amazon.com/images/S/pv-target-images/17a252ad1efe000d4bce85ff4ca87fc17cef2a6ce801170ba3ecab18161ae52b.jpg"]
+
+var listaTitulos = ['O Hobbit', 'Jumanji', 'Jumanji - Welcome to the Jungle', 'Harry Potter e o Prisioneiro de Azkabam', 'Encontrando Forrester']
+// listaFilmes[0] = 'https://br.web.img3.acsta.net/medias/nmedia/18/91/90/98/20169244.jpg';
+// listaFilmes[1] = 'https://upload.wikimedia.org/wikipedia/en/b/b6/Jumanji_poster.jpg';
+// listaFilmes[2] = 'https://m.media-amazon.com/images/M/MV5BODQ0NDhjYWItYTMxZi00NTk2LWIzNDEtOWZiYWYxZjc2MTgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg';
+// listaFilmes[3] = 'https://br.web.img3.acsta.net/medias/nmedia/18/90/67/52/20107757.jpg';
+// listaFilmes[4] = 'https://m.media-amazon.com/images/S/pv-target-images/17a252ad1efe000d4bce85ff4ca87fc17cef2a6ce801170ba3ecab18161ae52b.jpg';
+
+for (var i = 0; i < listaFilmes.length; i++) {
+  document.write('<img src=' + listaFilmes[i] + '>' + '<br>');
+  document.write(listaTitulos[i] + '<p>');
+}
+
+// var listaTítulos = []
+// listaFilmes[0] = 'Escola do Rock';
+// listaFilmes[1] = 'Jumanji';
+// listaFilmes[2] = 'Jumanji 2';
+// listaFilmes[3] = '10 Coisas que Odeio em Você';
+// listaFilmes[4] = 'Encontrando Forrester';
+
+// for (var i = 0; i < listaTitulos.length; i++) {
+//   document.write('<img src=' + listaTitulos[i] + '>');
+// }
